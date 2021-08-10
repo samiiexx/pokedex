@@ -1,0 +1,82 @@
+/**
+ * Copyright 2021 sfchi
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+ 
+
+ *{
+    box-sizing: border-box;
+}
+
+ body {
+     font-family: 'Lato', sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+     background: linear-gradient(to right, #d4d3dd, #efefbb);
+ }
+
+ h1 {
+     letter-spacing: 3px;
+ }
+
+ .poke-container {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: space-between;
+     justify-content: center;
+     margin: 0 auto;
+     max-width: 1200px;
+ }
+
+ .pokemon {
+     background-color: #eee;
+     border-radius: 10px;
+     box-shadow: 0 3px 15px rgba(100,100,100,0.5);
+     margin: 10px;
+     padding: 20px;
+     text-align: center;
+ }
+
+ .pokemon .img-container {
+     background-color: rgba(255,255,255,0.6);
+     border-radius: 50px;
+     width: 120px;
+     height: 120px;
+     text-align: center;
+ }
+
+ .img-container img {
+     max-width: 90%;
+     margin-top: 20px;
+ }
+
+ .info {
+     margin-top: 20px;
+ }
+
+ .number {
+     background-color: rgba(0,0,0,0.1);
+     padding: 5px 10px;
+     border-radius: 10px;
+     font-size: 0.8rem;
+ }
+
+ .name {
+     margin: 15px 0 7px;
+     letter-spacing: 1px;
+ }
